@@ -1,6 +1,7 @@
 <html>
 
 <head>
+  <title>Jason Lloyd's Portfolio</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
@@ -20,6 +21,7 @@
       <div class="collapse navbar-collapse" id="navMain">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
+          <li><a href="#Experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact Me</a></li>
         </ul>
@@ -35,9 +37,10 @@
           <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/005/026/0f8/2a60dd4.jpg" class="circularImage" />
           <p>My name is Jason Lloyd, I have been working fulltime at IBM for 3 years as a DevOps specialist. I love learning in my spare time and using new technologies. Here you will find a selection of my portfolio so you can see my work and
             what I have done over the last few years</p>
-          <a class="btn btn-primary btn-x1 page-scroll" href="#facebook">Facebook</a>
-          <a class="btn btn-primary btn-x1 page-scroll" href="#linkedin">LinkedIn</a>
-          <a class="btn btn-primary btn-x1 page-scroll" href="#linkedin">Website</a>
+          <a class="btn btn-primary btn-x1" href="#facebook">Facebook</a>
+          <a class="btn btn-primary btn-x1" href="https://ie.linkedin.com/in/jason-lloyd-68792a52">LinkedIn</a>
+          <a class="btn btn-primary btn-x1" href="http://thedeployguy.com">Blog</a>
+          <a class="btn btn-primary btn-x1" href="https://github.com/thedeployguy">Github</a>
         </div>
       </div>
     </div>
@@ -45,52 +48,86 @@
 
   <section>
     <div class="header-content" id="Experience">
-      <h1>Experience<h1>
+      <h1>Experience</h1>
          <hr>
-       <div class="row">
-        <div class="col-md-4">
-          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200" class="circularImage" />
-        </div>
-         <div class="col-md-8 leftAlign">
-           <h2>Cloud Deployment and Operations Automation Engineer - Devops</h2>
-           <p>I am part of the SmartCloud Team for Social Business. I am working as a Cloud Deployment and Operations Automation Engineer(DevOps)</p>
-
-          Some of the projects I am involved in:
-           <ul>
-              <li>Managing and Deploying cloud environment into VMware and Softlayer</li>
-              <li>Developed scripts to automate tasks for these cloud environments to allow for faster debugging leading to less downtime of the environments</li>
-              <li>Lead Development on Cloud deployment automation used to deploy over 20+ cloud environments</li>
-           </ul>
-
-          Achievements:
-          <ul>
-            <li>Fully automated the deployments of several production environments into SoftLayer/VMware, this effort saved 2-4 days of manual work each week.</li>
-            <li>Completely refactored existing deployment and operations code making it easier to manage and extend, saving development and implementation time.</li>
-            <li>Automated Build promotion process saving 10+ hours of manual effort monthly</li>
-          </ul>
-          <h5>Technologies involved: Python, Java, bash, Perl, PHP, Chef, RunDeck, Jenkins, RTC</h5>
-          </p>
-         </div>
-        </div>
         <div class="row">
-         <div class="col-md-offset-4 col-md-4 rightAlign">
-           <h2>Project 2</h2>
-           <p>Project Description</p>
+           <div class="col-md-3">
+             <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200" class="circularImage" />
+             <h5>2016 - Present</h5>
+           </div>
+          <div class="col-md-7 leftAlign">
+            <h2>thedeployguy.com – Personal Blogging site</h2>
+            <p>My personal blog that I regularly post about technologies I find interesting. I write tutorials/walkthrough of
+ using these technologies and what I found interesting about them. This was the best way for me to experience
+ technologies I wouldn’t normally in my job. It also helps me bring my experience with these technologies into my
+ current role. Some Subjects I have written about so far are:
+          <ul>
+            <li>NodeJS and Docker Introduction</li>
+            <li>Creating a Twitter Clone using NodeJS with ExpressJS</li>
+            <li>Creating an automated pipeline to build and deploy a NodeJS website using Jenkins</li>
+          <ul>
+           </p>
+          </div>
+        </div>
+      <div class="row">
+          <div class="col-md-3">
+            <img src="https://pbs.twimg.com/profile_images/614802024832610304/_CZY2puL.jpg" class="circularImage" />
+            <h5>2014 - Present</h5>
+            <h6>Dublin, Ireland</h6>
+          </div>
+          <div class="col-md-7 leftAlign">
+               <h3>Cloud Deployment and Operations Automation Engineer Connections Cloud</h3>
+               <p>As part of the cloud deployment and operation team my job is to develop and maintain various cloud
+                 deployment tools, to allow us to deploy IBM’s SaaS product (Connections Cloud) quickly and efficiently in just a
+                 few hours.
+               </p>
+
+              Some of the projects I am involved in:
+               <ul>
+                  <li>Managing and Deploying cloud environment into VMware and Softlayer</li>
+                  <li>Developed scripts to automate tasks for these cloud environments to allow for faster debugging leading to less downtime of the environments</li>
+                  <li>Lead Development on Cloud deployment automation used to deploy over 20+ cloud environments</li>
+               </ul>
+
+              Achievements:
+              <ul>
+                <li>Fully automated the deployments of several production environments into SoftLayer/VMware, this effort saved 2-4 days of manual work each week.</li>
+                <li>Refactored our existing distributive deployment automation to be non-distributive. This involved
+    refactoring legacy code, working with multiple application development teams to help them integrate
+    with the new deployment automation and implementing pipelines via Jenkins to allow teams to
+    deploy and test their environments easily.</li>
+                <li>Automated Build promotion process saving 10+ hours of manual effort monthly</li>
+              </ul>
+              <h5>Technologies involved: Python, Java, bash, Perl, PHP, Chef, RunDeck, Jenkins, RTC</h5>
+          </div>
+      </div>
+        <div class="row">
+         <div class="col-md-3">
+           <img src="https://pbs.twimg.com/profile_images/614802024832610304/_CZY2puL.jpg" class="circularImage" />
+           <h5>2013-2014</h5>
+           <h6>Dublin, Ireland</h6>
          </div>
-         <div class="col-md-4">
-          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200" class="circularImage" />
-        </div>
-        </div>
-       <div class="row">
-        <div class="col-md-4">
-          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200" class="circularImage" />
-        </div>
-         <div class="col-md-8 leftAlign">
-           <h2>Project 3</h2>
-           <p>Project Description</p>
+          <div class="col-md-7 leftAlign">
+            <h3>ICT Software Engineer for Connections Cloud</h3>
+            <p>As part of the cloud deployment and operation team my job is to develop and maintain various cloud
+              deployment tools, to allow us to deploy IBM’s SaaS product (Connections Cloud) quickly and efficiently in just a
+              few hours.
+            </p>
+
+           As part of the DevOps team for Connections Cloud my responsibilities involved:
+            <ul>
+               <li>Providing System Admin/maintenance support for all Connections Cloud Systems.</li>
+               <li>Developing automation tools in Java, Selenium and Python for these systems which includes:
+                 <ul>
+                   <li>Developed server side system in python to automatically sort thousands of logs fetched from various datacentres to comply with HIPPA requirements</li>
+                   <li>Developed scripts in python to automatically deploy and test cloud environments.</li>
+                   <li>Developed and maintained Selenium code designed to automatically test cloud systems</li>
+                 </ul>
+               </li>
+            </ul>
+          </div>
          </div>
-        </div>
-    </div>
+      </div>
   </section>
 
   <section>
@@ -107,25 +144,17 @@
          </div>
         </div>
         <div class="row">
-         <div class="col-md-offset-4 col-md-4 rightAlign">
-           <h2>Project 2</h2>
-           <p>Project Description</p>
-         </div>
          <div class="col-md-4">
-          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200" class="circularImage" />
-        </div>
-        </div>
-       <div class="row">
-        <div class="col-md-4">
-          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200" class="circularImage" />
-        </div>
-         <div class="col-md-8 leftAlign">
-           <h2>Project 3</h2>
-           <p>Project Description</p>
+           <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200" class="circularImage" />
          </div>
-        </div>
+          <div class="col-md-8 leftAlign">
+            <h2>Project 2</h2>
+            <p>Project Description</p>
+          </div>
+         </div>
     </div>
   </section>
+
     <section>
       <div class="header-content" id="contact">
         <h1>Contact me<h1>
