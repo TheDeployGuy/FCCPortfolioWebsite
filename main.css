@@ -72,3 +72,9 @@ header {
     display: inline-block !important;
     float: none !important;
 }
+
+#Experience h1,p,ul {
+  font-size: 15px;
+  font-weight: 100;
+  text-transform: none;
+}
