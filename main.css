@@ -12,7 +12,7 @@ label{
   text-align: left !important;
 }
 .row{
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 header {
   min-height: 100vh;
@@ -75,12 +75,8 @@ header {
     float: none !important;
 }
 
-#Experience p,ul {
+p,ul {
   font-size: 15px;
   font-weight: 100;
   text-transform: none;
-}
-
-#Experience .row {
-  margin-bottom: 50px;
 }
