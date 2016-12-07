@@ -30,6 +30,7 @@
   </div>
   <header>
     <div class="header-content">
+      <div class="container">
       <div class="row">
         <div class="col-md-offset-3 col-md-6">
           <h1>My Portfolio</h1>
@@ -37,16 +38,21 @@
           <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/005/026/0f8/2a60dd4.jpg" class="circularImage" />
           <p>My name is Jason Lloyd, I have been working fulltime at IBM for 3 years as a DevOps specialist. I love learning in my spare time and using new technologies. Here you will find a selection of my experience and some portfolio so you can see my work and
             what I have done over the last few years</p>
-          <a class="btn btn-primary btn-x1" href="#facebook">Facebook</a>
-          <a class="btn btn-primary btn-x1" href="https://ie.linkedin.com/in/jason-lloyd-68792a52">LinkedIn</a>
-          <a class="btn btn-primary btn-x1" href="http://thedeployguy.com">Blog</a>
-          <a class="btn btn-primary btn-x1" href="https://github.com/thedeployguy">Github</a>
         </div>
       </div>
+      <div class="row" id="buttons">
+        <div class="col-md-offset-3 col-md-6">
+        <a class="btn btn-default btn-lg btn-git" id="facebookButton"><i class="fa fa-facebook fa-2x"></i></a>
+        <a class="btn btn-default btn-lg btn-git" href="https://ie.linkedin.com/in/jason-lloyd-68792a52" id="linkedinButton"><i class="fa fa-linkedin fa-2x"></i></a>
+        <a class="btn btn-default btn-lg btn-git" href="http://github.com/thedeployguy" id ="githubButton"><i class="fa fa-github fa-2x"></i></a>
+      </div>
+      </div>
     </div>
+  </div>
   </header>
 
   <section>
+    <div class="container">
     <div class="header-content" id="Experience">
       <h1>Experience</h1>
          <hr/>
@@ -56,7 +62,7 @@
             <h5>2014 - Present</h5>
             <h6>Dublin, Ireland</h6>
           </div>
-          <div class="col-md-7 leftAlign">
+          <div class="col-md-9 leftAlign">
                <h3>Cloud Deployment and Operations Automation Engineer Connections Cloud</h3>
                <p>As part of the cloud deployment and operation team my job is to develop and maintain various cloud
                  deployment tools, to allow us to deploy IBM’s SaaS product (Connections Cloud) quickly and efficiently in just a
@@ -109,19 +115,21 @@
           </div>
          </div>
       </div>
+    </div>
   </section>
 
   <section>
+    <div class="container">
     <div class="header-content" id="projects">
       <h1>Projects</h1>
          <hr>
          <div class="row">
             <div class="col-md-3">
-              <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200" class="circularImage" />
+              <img src="theDeployGuyLogo.PNG" class="circularImage" />
               <h5>2016 - Present</h5>
             </div>
            <div class="col-md-7 leftAlign">
-             <h3>thedeployguy.com – Personal Blogging site</h3>
+             <h3><a href="http://thedeployguy.com">thedeployguy.com</a> – Personal Blogging site</h3>
              <p>My personal blog that I regularly post about technologies I find interesting. I write tutorials/walkthrough of
   using these technologies and what I found interesting about them. This was the best way for me to experience
   technologies I wouldn’t normally in my job. It also helps me bring my experience with these technologies into my
@@ -139,19 +147,20 @@
            <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200" class="circularImage" />
          </div>
           <div class="col-md-7 leftAlign">
-            <h2>Project 2</h2>
-            <p>Project Description</p>
+            <h2>In Progress...</h2>
           </div>
          </div>
     </div>
+  </div>
   </section>
 
     <section>
+      <div class="container">
       <div class="header-content" id="contact">
         <h1>Contact me<h1>
         <hr>
         <div class="row">
-          <div class="col-md-offset-3 col-md-6">
+          <div class="col-lg-8 col-lg-offset-2">
            <form class="form-horizontal" role="form" method="post" action="index.php">
 	          <div class="form-group">
 		          <label for="name" class="col-sm-2 control-label">Name</label>
@@ -185,6 +194,7 @@
           </div>
       </div>
      </div>
+   </div>
    </section>
 </body>
 </html>

@@ -80,3 +80,23 @@ p,ul {
   font-weight: 100;
   text-transform: none;
 }
+
+#projects a {
+  color: white;
+}
+
+#buttons a {
+  margin-right: 20px;
+}
+
+#linkedinButton{
+  color: rgb(0,127,178);
+}
+
+#githubButton{
+  color: rgb(102,43,129);
+}
+
+#facebookButton{
+  color: rgb(59,89,152);
+}
