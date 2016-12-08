@@ -1,7 +1,6 @@
 body {
   margin-top:0px;
   margin-bottom:0px;
-  background: url(https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg) no-repeat center center fixed;
   background-size: cover;
   color: #FFF;
 }
@@ -17,6 +16,11 @@ label{
 header {
   min-height: 100vh;
   background-position: center;
+  background: url(https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg) no-repeat center center;
+}
+
+section {
+  color: #2C3E50;
 }
 
 .header-content {
@@ -64,7 +68,7 @@ header {
 }
 
 .opaque-navbar {
-    background-color: rgba(0,0,0,0.5);
+    background-color: #222;
     height: 50px;
     border-bottom: 0px;
     transition: background-color .5s ease 0s;
@@ -81,8 +85,17 @@ p,ul {
   text-transform: none;
 }
 
-#projects a {
-  color: white;
+#customFooter {
+  color: black;
+  padding: 25px 0;
+}
+
+#customFooter .row {
+    margin-bottom: 0px;
+}
+#projectsSection {
+  background-color: #eee;
+  color: black;
 }
 
 #buttons a {
@@ -99,4 +112,9 @@ p,ul {
 
 #facebookButton{
   color: rgb(59,89,152);
+}
+
+#contactSection {
+  background-color: #222;
+  color: white;
 }
